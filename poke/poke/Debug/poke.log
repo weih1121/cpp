@@ -1,0 +1,54 @@
+﻿  poke.cpp
+c:\users\pres de toi\documents\visual studio 2017\projects\poke\poke\poke.cpp(63): error C2664: “void dispatchCards(Player **,int,const Card **)”: 无法将参数 3 从“Card **”转换为“const Card **”
+  c:\users\pres de toi\documents\visual studio 2017\projects\poke\poke\poke.cpp(63): note: 转换丢失限定符
+c:\users\pres de toi\documents\visual studio 2017\projects\poke\poke\poke.cpp(49): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\string.h(136): note: 参见“strcpy”的声明
+c:\users\pres de toi\documents\visual studio 2017\projects\poke\poke\poke.cpp(53): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\string.h(136): note: 参见“strcpy”的声明
+c:\users\pres de toi\documents\visual studio 2017\projects\poke\poke\poke.cpp(57): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\string.h(136): note: 参见“strcpy”的声明
+c:\users\pres de toi\documents\visual studio 2017\projects\poke\poke\poke.cpp(95): error C2440: “=”: 无法从“int”转换为“Suit”
+  c:\users\pres de toi\documents\visual studio 2017\projects\poke\poke\poke.cpp(95): note: 转换为枚举类型要求显式转换(static_cast、C 样式转换或函数样式转换)
+c:\users\pres de toi\documents\visual studio 2017\projects\poke\poke\poke.cpp(109): error C2440: “初始化”: 无法从“void *”转换为“Card **”
+  c:\users\pres de toi\documents\visual studio 2017\projects\poke\poke\poke.cpp(109): note: 从“void*”到指向非“void”的指针的转换要求显式类型转换
+c:\users\pres de toi\documents\visual studio 2017\projects\poke\poke\poke.cpp(111): error C2440: “初始化”: 无法从“void *”转换为“Card **”
+  c:\users\pres de toi\documents\visual studio 2017\projects\poke\poke\poke.cpp(111): note: 从“void*”到指向非“void”的指针的转换要求显式类型转换
+c:\users\pres de toi\documents\visual studio 2017\projects\poke\poke\poke.cpp(113): error C2440: “=”: 无法从“const Card *”转换为“Card *”
+  c:\users\pres de toi\documents\visual studio 2017\projects\poke\poke\poke.cpp(113): note: 转换丢失限定符
+c:\users\pres de toi\documents\visual studio 2017\projects\poke\poke\poke.cpp(117): warning C4244: “参数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+c:\users\pres de toi\documents\visual studio 2017\projects\poke\poke\poke.cpp(145): error C2440: “初始化”: 无法从“void *”转换为“Card *”
+  c:\users\pres de toi\documents\visual studio 2017\projects\poke\poke\poke.cpp(145): note: 从“void*”到指向非“void”的指针的转换要求显式类型转换
+c:\users\pres de toi\documents\visual studio 2017\projects\poke\poke\poke.cpp(146): error C2440: “=”: 无法从“Card *”转换为“Card **”
+  c:\users\pres de toi\documents\visual studio 2017\projects\poke\poke\poke.cpp(146): note: 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+c:\users\pres de toi\documents\visual studio 2017\projects\poke\poke\poke.cpp(153): error C2440: “=”: 无法从“const Card *”转换为“Card *”
+  c:\users\pres de toi\documents\visual studio 2017\projects\poke\poke\poke.cpp(153): note: 转换丢失限定符
+c:\users\pres de toi\documents\visual studio 2017\projects\poke\poke\poke.cpp(168): error C2440: “初始化”: 无法从“Card *”转换为“int”
+  c:\users\pres de toi\documents\visual studio 2017\projects\poke\poke\poke.cpp(168): note: 没有使该转换得以执行的上下文
+c:\users\pres de toi\documents\visual studio 2017\projects\poke\poke\poke.cpp(170): error C2440: “=”: 无法从“int”转换为“Card *”
+  c:\users\pres de toi\documents\visual studio 2017\projects\poke\poke\poke.cpp(170): note: 从整型转换为指针类型要求 reinterpret_cast、C 样式转换或函数样式转换
+c:\users\pres de toi\documents\visual studio 2017\projects\poke\poke\poke.cpp(250): error C2440: “初始化”: 无法从“void *”转换为“char *”
+  c:\users\pres de toi\documents\visual studio 2017\projects\poke\poke\poke.cpp(250): note: 从“void*”到指向非“void”的指针的转换要求显式类型转换
+c:\users\pres de toi\documents\visual studio 2017\projects\poke\poke\poke.cpp(212): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\string.h(136): note: 参见“strcpy”的声明
+c:\users\pres de toi\documents\visual studio 2017\projects\poke\poke\poke.cpp(215): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\string.h(136): note: 参见“strcpy”的声明
+c:\users\pres de toi\documents\visual studio 2017\projects\poke\poke\poke.cpp(218): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\string.h(136): note: 参见“strcpy”的声明
+c:\users\pres de toi\documents\visual studio 2017\projects\poke\poke\poke.cpp(221): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\string.h(136): note: 参见“strcpy”的声明
+c:\users\pres de toi\documents\visual studio 2017\projects\poke\poke\poke.cpp(228): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\string.h(136): note: 参见“strcpy”的声明
+c:\users\pres de toi\documents\visual studio 2017\projects\poke\poke\poke.cpp(231): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\string.h(136): note: 参见“strcpy”的声明
+c:\users\pres de toi\documents\visual studio 2017\projects\poke\poke\poke.cpp(234): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\string.h(136): note: 参见“strcpy”的声明
+c:\users\pres de toi\documents\visual studio 2017\projects\poke\poke\poke.cpp(237): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\string.h(136): note: 参见“strcpy”的声明
+c:\users\pres de toi\documents\visual studio 2017\projects\poke\poke\poke.cpp(240): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\string.h(136): note: 参见“strcpy”的声明
+c:\users\pres de toi\documents\visual studio 2017\projects\poke\poke\poke.cpp(243): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\string.h(136): note: 参见“strcpy”的声明
+c:\users\pres de toi\documents\visual studio 2017\projects\poke\poke\poke.cpp(246): error C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\stdio.h(1772): note: 参见“sprintf”的声明
+c:\users\pres de toi\documents\visual studio 2017\projects\poke\poke\poke.cpp(252): error C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\stdio.h(1772): note: 参见“sprintf”的声明
